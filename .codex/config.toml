@@ -1,0 +1,9 @@
+model = "raptor-mini"
+temperature = 0.2
+max_tokens = 1024
+prompt_prefix = "Assist with code-only changes and inline edits."
+workspace_root = "/home/moizjmj/crystalwebsolution.com-main/crystalwebsolution.com-main"
+include_files = ["**/*"]
+exclude_files = ["node_modules/**", ".git/**"]
+
+sandbox_mode = "danger-full-access"
